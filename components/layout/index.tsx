@@ -12,8 +12,8 @@ const Layout: FC<{children:any}> = ({ children }) => {
         position: "absolute",
         padding: '10px'
     }}>
-        <Container style={{height: "100%"}}>
-            <Row style={{height: "100%"}} noGutters>
+        <Container style={{height: "100%"}}  >
+            <Row style={{height: "100%"}}  noGutters>
                 <Menu />
                 <MainContent>                    
                     {children}

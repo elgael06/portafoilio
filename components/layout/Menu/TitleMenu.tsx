@@ -6,7 +6,6 @@ const TitleMenu = () => {
         <Nav.Item style={{
             backgroundColor: '#05428B',
             width: '100%',
-            padding: 5,
             position: 'initial',
             left: 0,
             right: 0,

@@ -18,4 +18,5 @@ a {
 .black_back {
   background-color: #3a3636 !important;
   border-radius: 0 !important;
+  overflow: auto;
 }

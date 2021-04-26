@@ -12,7 +12,7 @@ const TitleMenu = () => {
             textAlign: 'center',
         }}>
             <br/>
-            <h4 style={{ color:'#FFF'}}>DESARROLLADOR WEB</h4>
+            <h4 style={{ color:'#FFF'}}>DESARROLLADOR DE SOFTWARE</h4>
         </Nav.Item>
     </Nav>);
 }

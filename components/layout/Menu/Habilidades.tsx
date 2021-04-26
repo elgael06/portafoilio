@@ -5,21 +5,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Col, Row } from "react-bootstrap";
 
 const lista_habilidades = [
-    {tech: 'JavaScript', rank: {number:5,mid:false}},
-    {tech: 'Typescript', rank: {number:4,mid:true}},
-    {tech: 'ReactJS', rank: {number:5,mid:false}},
-    {tech: 'React/Native', rank: {number:4,mid:false}},
+    {tech: 'ReactJS/Native', rank: {number:5,mid:false}},
+    {tech: 'JavaScript', rank: {number:5,mid:true}},
+    {tech: 'Typescript', rank: {number:5,mid:true}},
     {tech: 'HTML/CSS', rank: {number:4,mid:true}},
-    {tech: 'Python/Falsk', rank: {number:4,mid:false}},
-    {tech: 'Python/Django', rank: {number:4,mid:false}},
-    {tech: 'netCore/EF', rank: {number:3,mid:true}},
-    {tech: 'MongoDB', rank: {number:3,mid:true}},
-    {tech: 'MariaDB/Mysql', rank: { number: 3, mid: false } },    
-    {tech: 'MS sqlServer', rank: {number:3,mid:true}},
-    {tech: 'PostgreSQL', rank: {number:3,mid:false}},
-    {tech: 'Boostrap', rank: {number:4,mid:false}},
+    {tech: 'Falsk/Django', rank: {number:4,mid:true}},
     {tech: 'Material.io', rank: {number:4,mid:true}},
+    {tech: 'netCore', rank: {number:4,mid:false}},
+    {tech: 'Boostrap', rank: {number:4,mid:false}},
+    {tech: 'MongoDB', rank: {number:3,mid:true}},
     {tech: 'Flutter', rank: {number:3,mid:true}},
+    {tech: 'MariaDB/Mysql', rank: { number: 3, mid: false } },  
 ];
 
 const Habilidades = () => {
